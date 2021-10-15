@@ -1,0 +1,95 @@
+
+
+.banniere1{     
+    display:flex;     
+    justify-content: space-between;     
+    align-items: center;     
+    background-color:black; 
+} 
+.logo{     
+    display:flex;     
+    justify-content: flex-start; 
+    color: white;
+}
+.banniere2{     
+    display:flex;     
+    justify-content: flex-end; 
+    color: white;
+} 
+
+ul{     
+    display:flex;     
+    list-style-type:none;     
+    margin:0;     
+    padding:0;     
+    overflow: hidden; 
+} 
+
+li{     
+    list-style-type: none;     
+    padding:5px;     
+    margin: 0;     
+    padding: 0; 
+} 
+
+li a {     
+    display: block;     
+    color: white;     
+    text-align: center;     
+    padding: 14px 16px;     
+    text-decoration: none; 
+} 
+
+li a:hover{     
+    background-color:rgb(98, 99, 99); 
+} 
+
+body{     
+    margin: 0;     
+    padding: 0; 
+} 
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.cafe1 {
+    background: no-repeat;
+    background-image: url(cafe.png);
+    background-size: cover;    
+    height: 800px;
+    width: 100%;
+}
+.texte {
+    padding: 50px;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    text-align: center;
+}
+
+.cafe {
+    font-size: 65px;
+    margin-left: 340px;
+}
+.slogan {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    flex-wrap: nowrap;    
+    display: flex;
+}
+
+.info {
+    padding: 50px;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    text-align: center;
+}
+
+.cafeserveur img {
+    width: 100%;
+}
